@@ -17,7 +17,7 @@ p {
   color: white;
 }
 
-/* Simple Responsive Framework. */
+/********** Simple Responsive Framework. **********/
 .row {
   width: 100%;
 }
@@ -79,11 +79,11 @@ p {
 
 /********** Mobile devices only **********/
 @media (max-width: 767px) {
-  .col-md-12 {
+  .col-sm-12 {
     float: left;
     border: 1px solid green;
   }
-  .col-md-12 {
+  .col-sm-12 {
     width: 100%;
   }
 }
